@@ -3,8 +3,17 @@ Write a command-line based Python program which fetches an Open dataset and prov
 
 ### Getting started
 
-Getting started:
+Run
 ```shell
-git clone https://github.com/andyafene/Andy-AFENE-Technical-test.git
-docker-compose up
+git clone https://github.com/andyafene/Command-line-based-Python-program.git
+pip install requirement.txt
+python3 cinemaFacts.py --network=vue
+```
+Test
+```shell
+git clone https://github.com/andyafene/Command-line-based-Python-program.git
+pip install requirement.txt
+virtualenv venv
+. venv/bin/activate
+python3 cinemaFacts_test.py
 ```
